@@ -1,0 +1,16 @@
+{
+    "agents": ["A", "B", "C"],
+    "seeds": [321, 231, 111],
+    "task": "tinyimagenet",
+    "model_type": "ResNet20",
+    "num_of_class": 200,
+    "optimizer": "Adam",
+    "batch_size": 256,
+    "datapoint_deduction": 0.1,
+    "total_epochs": 60,
+    "log_interval": -1,
+    "learning_rate": 1e-2,
+    "device": "cuda:0",
+    "exp_category": "three_agent_baseline",
+    "widen_factor": 6
+}
